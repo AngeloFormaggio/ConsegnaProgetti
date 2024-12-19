@@ -20,6 +20,22 @@ const termini = [
     { termine: 'MSFVenom', definizione: 'Strumento di Metasploit per generare payload malevoli e file eseguibili per test di sicurezza.', link: 'https://www.offsec.com/metasploit-unleashed/msfvenom/' , linkInterno:'shell.html' }
 ];
 
+
+function sortTerminologyArray(termini) {
+    termini.sort((a, b) => {
+        // Confronta i termini in modo case-insensitive
+        if (a.termine.toLowerCase() < b.termine.toLowerCase()) {
+            return -1;
+        }
+        if (a.termine.toLowerCase() > b.termine.toLowerCase()) {
+            return 1;
+        }
+        return 0;
+    });
+}
+
+sortTerminologyArray(termini); 
+
 // Funzione per creare le card dinamicamente
 function caricaGlossario() {
     const contenitore = document.getElementById('glossario-container');
