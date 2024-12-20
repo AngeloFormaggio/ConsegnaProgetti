@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domanda</title>
+    <link rel="stylesheet" href="styles/style2.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header con titolo e timer -->
+        <header>
+            <h1>Domanda</h1>
+            <div class="timer" id="timer">10:00</div> <!-- Timer in alto a destra -->
+        </header>
+        
+        <!-- Contenitore per la domanda e la textarea -->
+        <div class="question-container">
+            <p id="question-text">Caricamento domanda...</p>
+            <textarea id="answer-text" placeholder="Scrivi la tua risposta qui..."></textarea>
+            <div class="buttons">
+                <button id="menu-btn">Menu</button>
+                <button id="save-btn">Salva</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Assicurati che il percorso sia corretto -->
+    <script src="script/loadDomande.js"></script>
+</body>
+</html>

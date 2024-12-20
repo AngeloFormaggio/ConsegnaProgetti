@@ -1,0 +1,37 @@
+{
+    "categoria1": [
+        {
+            "question": "Qual è la capitale d'Italia?",
+            "answers": ["Roma", "Milano", "Napoli", "Torino"],
+            "correct": "Roma"
+        },
+        {
+            "question": "Chi ha scritto la Divina Commedia?",
+            "answers": ["Dante Alighieri", "Giovanni Boccaccio", "Petrarca", "Ludovico Ariosto"],
+            "correct": "Dante Alighieri"
+        },
+        {
+            "question": "In quale anno è stata fondata Roma?",
+            "answers": ["753 a.C.", "500 a.C.", "1000 d.C.", "500 d.C."],
+            "correct": "753 a.C."
+        }
+    ],
+    "categoria2": [
+        {
+            "question": "Chi ha dipinto la Gioconda?",
+            "answers": ["Leonardo da Vinci", "Michelangelo", "Raffaello", "Caravaggio"],
+            "correct": "Leonardo da Vinci"
+        },
+        {
+            "question": "Qual è la lingua ufficiale del Brasile?",
+            "answers": ["Portoghese", "Spagnolo", "Francese", "Italiano"],
+            "correct": "Portoghese"
+        },
+        {
+            "question": "Chi ha scritto la teoria della relatività?",
+            "answers": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+            "correct": "Albert Einstein"
+        }
+    ]
+}
+

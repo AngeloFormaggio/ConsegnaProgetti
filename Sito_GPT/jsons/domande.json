@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "question": "Qual è la capitale d'Italia?"
+    },
+    {
+        "id": 2,
+        "question": "Chi ha scritto 'La Divina Commedia'?"
+    },
+    {
+        "id": 3,
+        "question": "Quando è stata scoperta l'America?"
+    }
+]

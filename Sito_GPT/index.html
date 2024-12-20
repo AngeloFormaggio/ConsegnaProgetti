@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifica</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Titolo -->
+        <header>
+            <h1>Cultura Generale</h1>
+            <div id="timer" class="timer">10:00</div>
+        </header>
+        
+        <!-- Sezione con i riquadri per le domande -->
+        <div class="quiz-container">
+            <div class="quiz-box" onclick="location.href='domanda.html?id=1'">Domanda 1</div>
+            <div class="quiz-box" onclick="location.href='domanda.html?id=2'">Domanda 2</div>
+            <div class="quiz-box" onclick="location.href='domanda.html?id=3'">Domanda 3</div>
+            
+            <!-- Cliccando su Crocetta1 o Crocetta2, reindirizzo alla pagina crocetta.html con il parametro "categoria" -->
+            <div class="quiz-box" onclick="location.href='crocetta.html?categoria=1'">Crocetta 1</div>
+            <div class="quiz-box" onclick="location.href='crocetta.html?categoria=2'">Crocetta 2</div>
+            
+            <!-- Bottone per terminare e salvare -->
+            <div class="fine-box" id="fine-btn">Fine</div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
