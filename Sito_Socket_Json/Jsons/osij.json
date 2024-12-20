@@ -1,0 +1,36 @@
+{
+    "introduzione" :
+    {
+        "title" : "Modello ISO/OSI",
+        "content" : "Il modello ISO/OSI è uno standard internazionale che definisce un framework per la comunicazione tra dispositivi in rete. Creato dall'International Organization for Standardization (ISO), suddivide le operazioni di rete in sette livelli distinti, ciascuno con un ruolo specifico.<br><br>Questo approccio modulare facilita l'interoperabilità tra diversi sistemi e tecnologie, fornendo una base comune per progettare e comprendere le reti di comunicazione.",
+        "imageSrc" : "imgs/osi_net.jpg",
+        "imageAlt" : "Foto-Introduttiva"
+    },
+
+    "accordion":
+    {
+        "titleLvl7" : "Livello 7: Applicazione",
+        "contentLvl7" : "Il livello applicazione è l'ultimo livello della pila OSI ed è responsabile di fornire i servizi di rete direttamente agli utenti. Questo livello gestisce le richieste da parte delle applicazioni, come il browser web, il client di posta elettronica e altre applicazioni di rete. I protocolli a questo livello includono <a href='glossario.html' style='text-decoration: none;' class='text-warning'>HTTP</a>, <a href='glossario.html' style='text-decoration: none;' class='text-warning'>SMTP</a>, <a href='glossario.html' style='text-decoration: none;' class='text-warning'>FTP</a> e <a href='glossario.html' style='text-decoration: none;' class='text-warning'>DNS</a>.",
+        "imageLvl7" : "imgs/osi_lvl7.jpg",
+        "imageAltLvl7" : "Schema protocollo HTTP",
+        "subtitleLvl7" : "Schema che illustra il protocollo HTTP.",
+        "titleLvl6" : "Livello 6: Presentazione",
+        "contentLvl6" : "Il livello di presentazione si occupa della rappresentazione, <a href='glossario.html' style='text-decoration: none;' class='text-warning'>codifica</a> e <a href='glossario.html' style='text-decoration: none;' class='text-warning'>cifratura</a> dei dati scambiati tra le applicazioni. Ad esempio, converte i dati in formati comprensibili da diverse piattaforme e applica algoritmi di cifratura per garantire la sicurezza.",
+        "imageLvl6" : "imgs/osi_lvl_6_2.png",
+        "imageAltLvl6" : "Codifica immagine",
+        "subtitleLvl6" : "Codifica dei file immagine.",
+        "titleLvl5" : "Livello 5: Sessione",
+        "contentLvl5" : "Il livello di sessione gestisce le sessioni di comunicazione tra i dispositivi, sincronizzando e organizzando i flussi di dati.Ad esempio, permette di riprendere una trasmissione interrotta.",
+        "titleLvl4" : "Livello 4: Trasporto",
+        "contentLvl4" : "Il livello di trasporto gestisce la consegna affidabile dei dati tra i dispositivi. Protocolli come <a href='tcp.html' style='text-decoration: none;'>TCP e UDP</a> operano a questo livello, offrendo modalità di trasporto affidabili o a bassa latenza.",
+        "imageLvl4" : "imgs/osi_lvl4.jpg",
+        "imageAltLvl4" : "Protocolli TCP e UDP",
+        "subtitleLvl4" : "Confronto tra protocolli TCP e UDP.",
+        "titleLvl3" : "Livello 3: Rete",
+        "contentLvl3" : "Il livello di rete è responsabile dell'instradamento dei pacchetti tra diversi dispositivi e reti. Si occupa di determinare il percorso che i pacchetti devono seguire per arrivare a destinazione, e può operare su una rete locale o attraverso Internet.<br><br>I protocolli più noti a questo livello sono IP (Internet Protocol), che assegna gli indirizzi IP ai dispositivi, e il protocollo <a href='glossario.html' style='text-decoration: none;' class='text-warning'>ICMP</a> (Internet Control Message Protocol) che gestisce i messaggi di errore e le diagnosi, come quelli generati dai ping.",
+        "titleLvl2" : "Livello 2: Data Link",
+        "contentLvl2" : "Il livello di Data Link è responsabile della trasmissione dei dati tra dispositivi sulla stessa rete fisica. Si occupa della creazione di frame, che sono pacchetti di dati che contengono informazioni per il controllo dell'errore e per l'indirizzamento a livello di rete locale.<br><br>Gli esempi includono Ethernet e Wi-Fi, che definiscono le regole per l'accesso alla rete fisica e la gestione degli errori di trasmissione. Questo livello è fondamentale per garantire che i dati possano essere trasmessi in modo affidabile sulla rete.",
+        "titleLvl1" : "Livello 1: Fisico",
+        "contentLvl1" : "Il livello fisico è il livello più basso della pila OSI e si occupa della trasmissione dei segnali elettrici, ottici o radio tra i dispositivi. In altre parole, si occupa dei mezzi fisici attraverso i quali i dati vengono trasmessi, come cavi, fibre ottiche e onde radio.<br><br>Le tecnologie che operano a questo livello includono Ethernet (cavi di rete), Wi-Fi (onde radio) e le interfacce di rete come le porte <a href='glossario.html' style='text-decoration: none;' class='text-warning'>RJ-45</a>. Si occupa anche della modulazione dei segnali e della codifica dei dati per garantire che possano essere correttamente interpretati dai dispositivi."
+    }
+}

