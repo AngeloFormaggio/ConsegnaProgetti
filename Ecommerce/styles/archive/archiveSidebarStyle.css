@@ -1,0 +1,173 @@
+/* Stili per la sidebar */
+.sidebar-container {
+    margin-bottom: 2rem;
+}
+
+.sidebar {
+    background-color: rgba(18, 19, 19, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 1.5rem;
+    position: static;
+    top: 90px;
+}
+
+.sidebar-title, .filters-title {
+    color: #d7d7d6;
+    margin-bottom: 1.2rem;
+    border-bottom: 2px solid rgba(102, 0, 0, 0.8);
+    padding-bottom: 0.5rem;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.category-item {
+    margin-bottom: 0.8rem;
+}
+
+.category-link {
+    color: #d7d7d6;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.category-link:hover, .category-link.active {
+    background-color: rgba(102, 0, 0, 0.6);
+    border-left: 3px solid #d7d7d6;
+    transform: translateX(5px);
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: #d7d7d6;
+}
+
+.price-range {
+    margin-bottom: 1rem;
+}
+
+/* Stile migliorato per il range di prezzo */
+.form-range {
+    height: 6px;
+    background-color: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: rgba(102, 0, 0, 0.9);
+    border: 2px solid #d7d7d6;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.form-range::-webkit-slider-thumb:hover {
+    background-color: #660000;
+    transform: scale(1.1);
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background-color: rgba(80, 80, 80, 0.6);
+    border-radius: 3px;
+    height: 6px;
+}
+
+.form-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 3px rgba(102, 0, 0, 0.3);
+}
+
+/* Stile migliorato per menu a tendina */
+.form-select {
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(102, 0, 0, 0.5);
+    color: #d7d7d6;
+    padding: 0.6rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23d7d7d6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.form-select:focus {
+    background-color: rgba(40, 40, 40, 0.9);
+    border-color: rgba(102, 0, 0, 0.8);
+    box-shadow: 0 0 0 0.25rem rgba(102, 0, 0, 0.25);
+}
+
+.form-select option {
+    background-color: #1e1e1e;
+    color: #d7d7d6;
+}
+
+/* Stile migliorato per le etichette di prezzo */
+.price-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: #a7a7a6;
+}
+
+#price-value {
+    font-weight: bold;
+    color: #d7d7d6;
+}
+
+/* Miglioramento hover state per tutti gli elementi interattivi */
+.form-control:hover, .form-select:hover {
+    border-color: rgba(102, 0, 0, 0.7);
+}
+
+.apply-filters {
+    background-color: rgba(102, 0, 0, 0.8);
+    border: none;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.apply-filters:hover {
+    background-color: rgba(102, 0, 0, 1);
+    transform: translateY(-3px);
+}
+
+/* Stile per la barra di ricerca */
+.search-box {
+    margin-bottom: 1rem;
+}
+
+#search-input {
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(102, 0, 0, 0.5);
+    color: #d7d7d6;
+    padding: 0.6rem;
+    transition: all 0.3s ease;
+}
+
+#search-input:focus {
+    background-color: rgba(40, 40, 40, 0.9);
+    border-color: rgba(102, 0, 0, 0.8);
+    box-shadow: 0 0 0 0.25rem rgba(102, 0, 0, 0.25);
+}
+
+#search-input::placeholder {
+    color: #999;
+    opacity: 0.8;
+}
+
+/* Stile per evidenziare i risultati della ricerca */
+.highlight {
+    background-color: rgba(102, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 0 2px;
+}

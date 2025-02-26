@@ -1,0 +1,129 @@
+body {
+    font-family: 'Quintessential', serif;
+    background-color: black;
+    font-weight: 500;
+    padding-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%; /* Imposta altezza a 100% per l'intero documento */
+    margin: 0; /* Rimuovi i margini predefiniti */
+}
+
+.logo{
+    max-width: 100%;/*il logo occupa il 100% dell' <a>*/
+    height: auto;
+    margin-left: 6%;
+}
+
+.linkLogo{
+    max-width: 150px;/*limito grandezza dell'<a> per evitare interferenza con i link*/
+    width: auto;
+}
+
+/* Stile per le icone */
+.nav-icon {
+    width: 40px; /* Regola in base alle tue icone */
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Effetto hover per le icone */
+.navbar-nav.order-lg-2 .nav-link:hover .nav-icon {
+    transform: translateY(-4px);
+}
+
+.navbar-custom {
+    background-color: rgba(18, 19, 19, 0.6);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Cambia il colore del testo e dei link nella navbar */
+.navbar-custom .navbar-nav .nav-link {
+    color: #d7d7d6;
+    position: relative; /* Necessario per posizionare il pseudo-elemento */
+    text-decoration: none; /* Rimuovi la sottolineatura predefinita */
+    padding-bottom: 5px; /* Spazio per l'animazione */
+}
+
+/* Cambia il colore di sfondo del dropdown menu */
+.navbar-custom .dropdown-menu {
+    background-color: rgba(18, 19, 19, 0.6);
+}
+
+/* Cambia il colore del testo e dei link nel dropdown menu */
+.navbar-custom .dropdown-menu .dropdown-item {
+    color: #d7d7d6;
+}
+
+/* Cambia il colore del testo e dei link nel dropdown menu al passaggio del mouse */
+.navbar-custom .dropdown-menu .dropdown-item:hover {
+    background-color:  rgba(102, 0, 0,0.6);
+    color: #d7d7d6;
+}
+
+/*cambio il colore del bottone a hamburger*/
+.navbar-toggler{
+    border-color: rgba(102, 0, 0,1);
+    border-width: 2.5px;
+    color: #000;
+    background: linear-gradient(
+    45deg,
+    #999 5%,
+    #dadada 10%,
+    #ccc 30%,
+    #ddd 50%,
+    #ccc 70%,
+    #cccccc 80%,
+    #999 95%
+  );
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Pseudo-elemento per l'animazione di sottolineatura */
+.navbar-custom .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Parte dal centro */
+    bottom: 0;
+    width: 0; /* Inizia con larghezza 0 */
+    height: 2px; /* Altezza della linea */
+    background-color: rgba(102, 0, 0,1); /* Colore della linea */
+    transition: all 0.3s ease-in-out; /* Animazione fluida */
+    transform: translateX(-50%); /* Centra la linea */
+    
+}
+
+/* Animazione al passaggio del mouse */
+.navbar-custom .navbar-nav .nav-link:hover::after {
+    width: 100%; /* Espande la linea fino alla larghezza completa */
+    
+}
+
+/* Rimuovi l'effetto di sottolineatura per le icone */
+.navbar-nav.order-lg-2 .nav-link::after {
+    display: none;
+}
+
+
+/*
+PALETTE:
+#d9cec1
+#E3D888
+#84714F
+#5A3A31
+#31231E
+
+*/

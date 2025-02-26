@@ -1,0 +1,174 @@
+/* Stili per la pagina prodotto */
+.product-detail {
+    margin-top: 110px;
+    background-color: rgba(18, 19, 19, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.product-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-detail h1 {
+    color: #d7d7d6;
+    margin-bottom: 1rem;
+}
+
+.product-detail p {
+    color: #d7d7d6;
+    margin-bottom: 1rem;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.quantity-controls .quantity {
+    font-size: 1.2rem;
+    color: #d7d7d6;
+}
+
+.divine-btn {
+    background-color: rgba(102, 0, 0, 0.8);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.divine-btn:hover {
+    background-color: rgba(102, 0, 0, 1);
+    transform: translateY(-3px);
+}
+
+.footImgA img{
+    max-height: 150px;
+}
+
+/* Nuovi stili per il pulsante indietro e l'accordion */
+.back-button {
+    display: inline-block;
+    color: #d7d7d6;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    color: #ffffff;
+    transform: translateX(-5px);
+}
+
+.accordion-button {
+    background-color: rgba(102, 0, 0, 0.8);
+    color: #d7d7d6;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(102, 0, 0, 1);
+    color: #ffffff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(102, 0, 0, 1);
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: 1px solid rgba(102, 0, 0, 0.8);
+}
+
+.accordion-body {
+    background-color: rgba(18, 19, 19, 0.9);
+    color: #d7d7d6;
+}
+
+.table-dark {
+    --bs-table-bg: transparent;
+    --bs-table-striped-bg: rgba(102, 0, 0, 0.2);
+}
+
+/* Aggiungi questi stili al tuo file prodottoStyle.css */
+
+#variantContainer {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    color: #d7d7d6;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.form-select {
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #d7d7d6;
+    border: 1px solid rgba(102, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(102, 0, 0, 0.25);
+    border-color: rgba(102, 0, 0, 1);
+}
+
+/* Styling per le opzioni del dropdown */
+.form-select option {
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #d7d7d6;
+}
+
+/* Stili per la sezione bundle */
+.bundle-section {
+    border-top: 1px solid rgba(102, 0, 0, 0.4);
+    padding-top: 1.5rem;
+}
+
+.bundle-title {
+    color: #d7d7d6;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.bundle-options {
+    background-color: rgba(40, 40, 40, 0.6);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.bundle-option {
+    border-bottom: 1px solid rgba(102, 0, 0, 0.3);
+    padding-bottom: 0.75rem;
+}
+
+.bundle-option:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.form-check-label {
+    color: #d7d7d6;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: rgba(102, 0, 0, 0.8);
+    border-color: rgba(102, 0, 0, 1);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(102, 0, 0, 0.25);
+    border-color: rgba(102, 0, 0, 1);
+}
+
+.badge.bg-danger {
+    background-color: rgba(102, 0, 0, 0.8) !important;
+}

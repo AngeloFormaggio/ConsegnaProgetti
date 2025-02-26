@@ -1,0 +1,405 @@
+[
+    {
+        "id": 0,
+        "name": "Cinato Beiterink 2014",
+        "category": "vino-rosso",
+        "price": 25.00,
+        "image": "../photos/RossoB1.jpg",
+        "grado": "13.5%",
+        "from": "Tuscany, Italy",
+        "description": "Un vino rosso strutturato con intense note di frutti di bosco e sentori speziati. Affinato in barrique, rivela un finale persistente con eleganti ricordi di liquirizia e tabacco."
+    },
+    {
+        "id": 1,
+        "name": "Giak Red",
+        "category": "vino-rosso",
+        "price": 33.00,
+        "image": "../photos/rossoB2.jpg",
+        "grado": "14%",
+        "from": "Piedmont, Italy",
+        "description": "Barbera corposa con un bouquet ricco di ciliegia matura e vaniglia. Di grande carattere, si distingue per la freschezza minerale e i tannini setosi."
+    },
+    {
+        "id": 2,
+        "name": "Black Red",
+        "category": "vino-rosso",
+        "price": 52.00,
+        "image": "../photos/RossoB3.jpg",
+        "grado": "14.5%",
+        "from": "Napa Valley, USA",
+        "description": "Cabernet Sauvignon iconico con aromi di cassis, cacao torrefatto e eucalipto. Un vino potente ma raffinato, con un finale che evoca grafite e spezie dolci."
+    },
+    {
+        "id": 3,
+        "name": "Riaeau",
+        "category": "vino-rosso",
+        "price": 28.00,
+        "image": "../photos/RossoB4.jpg",
+        "grado": "13%",
+        "from": "Rioja, Spain",
+        "description": "Tempranillo avvolgente con note di mora selvatica e cuoio. L'affinamento in rovere americano regala una piacevole speziatura al retrogusto."
+    },
+    {
+        "id": 4,
+        "name": "Amaria",
+        "category": "vino-rosso",
+        "price": 37.00,
+        "image": "../photos/RossoB5.jpg",
+        "grado": "14%",
+        "from": "Bordeaux, France",
+        "description": "Blend di Merlot e Cabernet Franc dal carattere elegante. Note di prugna cotta, violetta e un tocco di pepe nero nel finale persistente."
+    },
+    {
+        "id": 5,
+        "name": "Cointiay Shinil",
+        "category": "vino-rosso",
+        "price": 41.00,
+        "image": "../photos/RossoB6.jpg",
+        "grado": "13.8%",
+        "from": "Mendoza, Argentina",
+        "description": "Malbec intenso con concentrati aromi di marmellata di more e caffè espresso. La morbidezza fruttata è bilanciata da una vivace acidità."
+    },
+    {
+        "id": 6,
+        "name": "Rosa Better",
+        "category": "vino-rosso",
+        "price": 19.00,
+        "image": "../photos/RossoB7.jpg",
+        "grado": "12.5%",
+        "from": "Sicily, Italy",
+        "description": "Nero d'Avola giovane e fruttato, con profumi di marasca e macchia mediterranea. Ideale per aperitivi o piatti di pesce strutturati."
+    },
+    {
+        "id": 7,
+        "name": "Viholailea",
+        "category": "vino-rosso",
+        "price": 36.00,
+        "image": "../photos/RossoB8.jpg",
+        "grado": "13.2%",
+        "from": "Douro Valley, Portugal",
+        "description": "Blend portoghese con tannini levigati e note di liquirizia e mirtillo. Un vino versatile che si sposa con carni rosse e formaggi stagionati."
+    },
+    {
+        "id": 8,
+        "name": "Dingtnteral Riraeko",
+        "category": "vino-rosso",
+        "price": 46.00,
+        "image": "../photos/RossoB9.jpg",
+        "grado": "14%",
+        "from": "Barossa Valley, Australia",
+        "description": "Shiraz esuberante con aromi di confettura di prugne e cioccolato fondente. La potenza alcolica è magistralmente equilibrata da una fresca vena acidula."
+    },
+    {
+        "id": 9,
+        "name": "Vnrc",
+        "category": "vino-bianco",
+        "price": 16.00,
+        "image": "../photos/BiancoB1.jpg",
+        "grado": "12%",
+        "from": "Mosel, Germany",
+        "description": "Riesling secco con profumi di pesca bianca e lime. La mineralità vulcanica e l'acidità vibrante lo rendono un bianco versatile e rigenerante."
+    },
+    {
+        "id": 10,
+        "name": "Craft Beer",
+        "category": "birra",
+        "price": 7.00,
+        "image": "../photos/BirraB1.jpg",
+        "grado": "6.2%",
+        "from": "Bavaria, Germany",
+        "description": "Weissbier artigianale con sentori di banana matura e chiodi di garofano. Torbida e rinfrescante, con una schiuma cremosa persistente."
+    },
+    {
+        "id": 11,
+        "name": "Craft Old",
+        "category": "birra",
+        "price": 6.00,
+        "image": "../photos/BirraB2.jpg",
+        "grado": "5.8%",
+        "from": "Brussels, Belgium",
+        "description": "Saison tradizionale con lievi note agrumate e speziate. Fermentazione mista che dona complessità e un finale asciutto."
+    },
+    {
+        "id": 12,
+        "name": "GryTior",
+        "category": "birra",
+        "price": 6.00,
+        "image": "../photos/BirraB3.jpg",
+        "grado": "7%",
+        "from": "Prague, Czech Republic",
+        "description": "Pilsner dorata con amaro nobile e aroma di pane fresco. Il luppolo Saaz conferisce un tocco erbaceo e leggermente floreale."
+    },
+    {
+        "id": 13,
+        "name": "Craft Old Old",
+        "category": "birra",
+        "price": 4.00,
+        "image": "../photos/BirraB4.jpg",
+        "grado": "4.5%",
+        "from": "Dublin, Ireland",
+        "description": "Dry Stout cremosa con note di caffè tostato e cioccolato fondente. Perfetta per gli amanti delle birre scure e vellutate."
+    },
+    {
+        "id": 14,
+        "name": "Rauch",
+        "category": "birra",
+        "price": 8.00,
+        "image": "../photos/BirraB5.jpg",
+        "grado": "5.5%",
+        "from": "Bamberg, Germany",
+        "description": "Rauchbier affumicata con aromi di legno di faggio e pancetta croccante. Un'esperienza sensoriale unica per palati avventurosi."
+    },
+    {
+        "id": 15,
+        "name": "Mary",
+        "category": "birra",
+        "price": 6.00,
+        "image": "../photos/BirraB6.jpg",
+        "grado": "6%",
+        "from": "Antwerp, Belgium",
+        "description": "Dubbel abbaziale con note di caramello scuro e frutta secca. Corpo medio e carbonatazione fine per una birra da meditazione."
+    },
+    {
+        "id": 16,
+        "name": "CosNox",
+        "category": "spiriti",
+        "price": 60.00,
+        "image": "../photos/CognacB1.jpg",
+        "grado": "40%",
+        "from": "Cognac, France",
+        "description": "X.O. invecchiato 20 anni in botti di Limousin. Note di arancia candita, tabacco e cuoio, con un finale infinito di spezie dolci."
+    },
+    {
+        "id": 17,
+        "name": "ClepCkirs",
+        "category": "spiriti",
+        "price": 55.00,
+        "image": "../photos/CognacB2.jpg",
+        "grado": "40%",
+        "from": "Cognac, France",
+        "description": "V.S.O.P. elegante con sentori di vaniglia e uva passa. Affinamento in rovere che dona rotondità e un delicato ricordo di miele."
+    },
+    {
+        "id": 18,
+        "name": "Cognac Congind",
+        "category": "spiriti",
+        "price": 49.00,
+        "image": "../photos/CognacB3.jpg",
+        "grado": "40%",
+        "from": "Cognac, France",
+        "description": "V.S. vivace con aromi di fiori bianchi e agrumi. Giovane ed energico, ideale per cocktail classici come il Sidecar."
+    },
+    {
+        "id": 19,
+        "name": "Barette Laraey",
+        "category": "spiriti",
+        "price": 65.00,
+        "image": "../photos/CognacB4.jpg",
+        "grado": "42%",
+        "from": "Cognac, France",
+        "description": "Hors d'Âge complesso con stratificazioni di frutta secca, cacao e sandalo. Un'opera d'arte dell'arte della distillazione."
+    },
+    {
+        "id": 20,
+        "name": "Pine Gartila",
+        "category": "spiriti",
+        "price": 38.00,
+        "image": "../photos/GrappaB1.jpg",
+        "grado": "38%",
+        "from": "Veneto, Italy",
+        "description": "Grappa di Prosecco morbida e aromatica. Note di mela cotogna e mandorla dolce, con un finale pulito e setoso."
+    },
+    {
+        "id": 21,
+        "name": "Hlidg Pine",
+        "category": "spiriti",
+        "price": 42.00,
+        "image": "../photos/GrappaB2.jpg",
+        "grado": "40%",
+        "from": "Trentino, Italy",
+        "description": "Grappa di Moscato invecchiata 5 anni in rovere. Sentori di spezie esotiche, miele di castagno e scorza d'arancia."
+    },
+    {
+        "id": 22,
+        "name": "181 Pine",
+        "category": "spiriti",
+        "price": 32.00,
+        "image": "../photos/GrappaB3.jpg",
+        "grado": "35%",
+        "from": "Piedmont, Italy",
+        "description": "Grappa giovane di Nebbiolo con freschi aromi di violetta e lampone. Perfetta come digestivo o abbinata a cioccolato fondente."
+    },
+    {
+        "id": 23,
+        "name": "Chabe",
+        "category": "idromele",
+        "price": 21.00,
+        "image": "../photos/IdromeleB1.jpg",
+        "grado": "12%",
+        "from": "Masuria, Poland",
+        "description": "Miele millefiori fermentato con lieviti selvaggi. Note floreali e sentori di pane appena sfornato, dolcezza ben bilanciata."
+    },
+    {
+        "id": 24,
+        "name": "Ekoclasd Mead",
+        "category": "idromele",
+        "price": 18.00,
+        "image": "../photos/IdromeleB2.jpg",
+        "grado": "14%",
+        "from": "Herefordshire, England",
+        "description": "Idromele speziato con cannella e chiodi di garofano. Ricorda i banchetti medievali, con una moderna pulizia aromatica."
+    },
+    {
+        "id": 25,
+        "name": "Old Mead",
+        "category": "idromele",
+        "price": 26.00,
+        "image": "../photos/IdromeleB3.jpg",
+        "grado": "13.5%",
+        "from": "Normandy, France",
+        "description": "Idromele affinato in botti di rovere, con note di frutta secca, rovere e spezie dolci. Complesso e morbido, con un finale lungo."
+    },
+    {
+        "id": 26,
+        "name": "Nyoni",
+        "category": "idromele",
+        "price": 22.00,
+        "image": "../photos/IdromeleB4.jpg",
+        "grado": "12%",
+        "from": "Fyn, Denmark",
+        "description": "Idromele fresco con note agrumate e floreali. Ideale come aperitivo o in abbinamento a formaggi freschi."
+    },
+    {
+        "id": 27,
+        "name": "Versailles Mead",
+        "category": "idromele",
+        "price": 19.55,
+        "image": "../photos/IdromeleVersailles.jpg",
+        "grado": "10.2%",
+        "from": "Rovigo, Italy",
+        "description": "Idromele classico, con note di ginepro sul finale, delicato ma sofisticato, richiama aromi fruttati.Prodotto solo ed esclusivamente nella cantina Formaggiosa."
+    },
+    {
+        "id": 28,
+        "name": "Arysuce Rum",
+        "category": "spiriti",
+        "price": 45.00,
+        "image": "../photos/RumB1.jpg",
+        "grado": "40%",
+        "from": "Martinica",
+        "description": "Rum agricolo invecchiato 8 anni, con note di vaniglia, miele e frutta tropicale. Finale morbido con un tocco speziato."
+    },
+    {
+        "id": 29,
+        "name": "Jaieagy Rum",
+        "category": "spiriti",
+        "price": 52.00,
+        "image": "../photos/RumB2.jpg",
+        "grado": "43%",
+        "from": "Giamaica",
+        "description": "Rum dal carattere deciso con aromi di banana matura, ananas e melassa. Intenso e speziato, perfetto per la miscelazione o da sorseggiare liscio."
+    },
+    {
+        "id": 30,
+        "name": "Scam Rum",
+        "category": "spiriti",
+        "price": 38.00,
+        "image": "../photos/RumB3.jpg",
+        "grado": "37.5%",
+        "from": "Barbados",
+        "description": "Rum leggero e fruttato con sentori di cocco e caramello. Ideale per cocktail esotici come il Mai Tai o il Daiquiri."
+    },
+    {
+        "id": 31,
+        "name": "Jàld Prissy Rum",
+        "category": "spiriti",
+        "price": 68.00,
+        "image": "../photos/RumB4.jpg",
+        "grado": "45%",
+        "from": "Venezuela",
+        "description": "Rum premium invecchiato 12 anni, con note di cioccolato fondente, spezie dolci e tabacco. Complesso e raffinato, perfetto per la degustazione."
+    },
+    {
+        "id": 32,
+        "name": "Cimir Rum",
+        "category": "spiriti",
+        "price": 55.00,
+        "image": "../photos/RumB5.jpg",
+        "grado": "42%",
+        "from": "Guatemala",
+        "description": "Rum artigianale con un bouquet di vaniglia, frutta secca e rovere tostato. Equilibrato e persistente, ottimo da meditazione."
+    },
+    {
+        "id": 33,
+        "name": "Tantell Whisky",
+        "category": "spiriti",
+        "price": 72.00,
+        "image": "../photos/WhiskyB1.jpg",
+        "grado": "46%",
+        "from": "Scozia",
+        "description": "Single malt torbato con sentori di affumicatura, torba marina e miele di brughiera. Un whisky intenso e avvolgente."
+    },
+    {
+        "id": 34,
+        "name": "WhisKey 10 anni",
+        "name1": "WhisKey 25 anni",
+        "category": "spiriti",
+        "price": 58.68,
+        "image": "../photos/WhiskyB2.jpg",
+        "grado": "39%",
+        "from": "Dublin, Ireland",
+        "description": "Un whisky blended pregiato, da sorseggiare per eventi importanti, disponibile in 2 annate",
+        "price1": 456,
+        "image1": "../photos/WhiskyB3.jpg",
+        "grado1": "39%"
+    },
+
+    {
+        "id": 35,
+        "name": "Tust Whisky",
+        "category": "spiriti",
+        "price": 58.00,
+        "image": "../photos/WhiskyB4.jpg",
+        "grado": "47%",
+        "from": "Canada",
+        "description": "Whisky canadese con aromi di acero, spezie dolci e legno tostato. Morbido e rotondo con un finale leggermente affumicato."
+    },
+    {
+        "id": 36,
+        "name": "Septembers Whisky",
+        "category": "spiriti",
+        "price": 80.00,
+        "image": "../photos/WhiskyB5.jpg",
+        "grado": "50%",
+        "from": "Giappone",
+        "description": "Whisky giapponese di grande eleganza, con note di agrumi, miele di acacia e fiori di ciliegio. Persistente e armonioso."
+    },
+    {
+        "id": 37,
+        "name": "Jagermeister",
+        "name1": "Jagermeister Manifest",
+        "category": "spiriti",
+        "price": 20.00,
+        "price1": 54.00,
+        "image1": "https://images.ctfassets.net/lzmdclvz8tzc/3bPFODuNz2SkGBXtP0EEol/caa4365a9c76b74116eaa977cd043e20/medium-JM_INT_MANIFEST_PACKSHOT_42179.png?fm=webp&w=1920&q=75",
+        "image":"https://images.ctfassets.net/lzmdclvz8tzc/3kQzUTPOxQZCNH6QVTaFIO/48da81507e79f916f5269663602d5d91/medium-JM_CORE_INT_FroBo_Clean_Data_Key_Visual_18_1_Black_Green_Shotglasses.png?fm=webp&w=1920&q=75",
+        "grado": "35%",
+        "grado1":"38%",
+        "from": "Wolfenbüttel, Germany",
+        "description": "La natura li ha creati e noi li abbiamo imbottigliati. Erbe, fiori, radici e frutti di altissima qualità, provenienti da tutte le parti del mondo, vengono elaborati in 4 macerati diversi, quindi combinati con un processo alchemico moderno fino a ottenere il nostro liquore d’erbe. La lista completa degli ingredienti è segreta e attentamente custodita, ma ti basterà portare il bicchiere alle labbra per sentire gusti da tutti i 4 angoli del mondo. "
+    },
+    {
+        "id":38,
+        "name":"Jack Daniel's",
+        "name1":"Jack Daniel's Honey",
+        "category":"spiriti",
+        "price":20.60,
+        "price1":22.80,
+        "grado":"40%",
+        "grado1":"35%",
+        "from":"Tennessee, US",
+        "description":"Jack Daniel’s, con la sua iconica bottiglia squadrata e l'etichetta nera, è il Whiskey più conosciuto e apprezzato al mondo; prodotto dall'omonima distilleria a Lynchburg, Tennessee, è composto per l'80% da mais, il 12% da segale e l'8% da malto. A differenza dei Bourbon, viene filtrato attraverso carboni di acero prima dell'imbottigliamento, procedimento che lo rende più morbido e puro con un leggero sentore di affumicato.",
+        "image":"https://res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1467746044/product/bottle/old_no7_01_0.png",
+        "image1":"https://res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1467743297/product/bottle/tennesee_honey_01.png"
+    }
+]

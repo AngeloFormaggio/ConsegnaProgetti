@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1;
+}
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 2;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imgCont img{
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-device-width : 767px){
+    .imgCont img{
+        margin-bottom: 40px;
+    }
+}
+
+.carousel-inner img {
+    border-radius: 10px; /* Modifica il valore a piacere */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Sfondo scuro trasparente */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.linkCar{
+    text-decoration: none;
+    color: white;
+}
+
+.linkContainer{
+    transition: all 1s ease;
+}
+
+.linkContainer:hover{
+    transform: translateY(-10px);
+}
+
+.footImgA img{
+    max-height: 150px;
+}
